@@ -37,10 +37,11 @@ Inside, we can write our custom logic to process the message. In this simple exa
 The content is formatted as “Received: {message.content}” and then sent back to the user asynchronously with .send().
 
 Let’s test it with the run command of chainlit:
+
     cd src
 
     cd hello_chainlit
-    
+
     uv run chainlit run chatbot.py -w
 
 Note: the -w parameter enables hot reloading when we change our code
