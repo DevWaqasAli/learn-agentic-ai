@@ -38,7 +38,9 @@ The content is formatted as “Received: {message.content}” and then sent back
 
 Let’s test it with the run command of chainlit:
     cd src
+
     cd hello_chainlit
+    
     uv run chainlit run chatbot.py -w
 
 Note: the -w parameter enables hot reloading when we change our code
